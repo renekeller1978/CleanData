@@ -1,0 +1,37 @@
+The two datasets in this exercise are:
+CombinedDS.txt 
+AverageDS.txt
+
+Both datasets contain the same number of Features (66 in total):
+
+Features:
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+
+
+Additional variables are:
+MeasurementsText: measurement of the movement in Text form (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+Subject: subject ID
+	
+For CombinedDS.txt the values for the features represent the values at the different observation points, for AverageDS, the values represent the mean ffor each acttivity and Subject. 
